@@ -1,0 +1,80 @@
+@media screen and (max-width: 1000px){
+    .topnav .nav{
+        width: 100%;
+    }
+    #footerbox{
+        top: 1055px;
+    }
+    #footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    .topnav .nav li:nth-of-type(1){
+        position: absolute;
+        left: 45%;
+    }
+    .topnav .nav li:nth-last-of-type(1){
+        position: absolute;
+        right: 2px;
+    }
+    .topnav .nav .xs{
+        display: none;
+    }
+    .topnav .nav .cha,.topnav .hide,.topnav .hide li a{
+        display: block;
+    }
+    #bannerbox{
+        height: 475px;
+    }
+    #bannerbox .banner1{
+        background: url(../img/1.small.png) no-repeat center center;
+    }
+    #bannerbox .banner2{
+        top: 90px;overflow: hidden;
+        background: url(../img/1.small.jpg) no-repeat center center;
+    }
+    #bannerbox .iphone .h2{
+        background: url(../img/3.small.png) no-repeat center center;
+    }
+    #bannerbox .watch .h2{
+        background: url(../img/4.small.png) no-repeat center center;
+    }
+    #bannerbox .banner3{
+        top: 90px;
+        background: url(../img/2.small.jpg) no-repeat center center;
+    }
+    #bannerbox .xianzhi{
+        display: block;
+    }
+    #bannerbox .yc{
+        display: none;
+    }
+    #bannerbox .ipad{
+        margin: 0px auto 0;
+    }
+    #bannerbox .banner4{
+        background: url(../img/3.small.jpg) no-repeat center center;
+    }
+    #bannerbox .h3{
+        font-size: 22px;
+    }
+    #bannerbox .mac{
+        margin:50px auto 0;
+    }
+    #bannerbox .iphone{
+        margin:40px auto 0;
+    }
+    #bannerbox .h2{
+        font-size: 40px;
+    }
+    #container-fuild{
+        top:523px
+    }
+    #footerbox{
+        display: none;
+    }
+    body #xy-footerbox{
+        display: block;
+    }
+}
